@@ -1,0 +1,39 @@
+{
+  "name": "@lukup/stream-sdk",
+  "version": "0.0.1",
+  "description": "An SDK to develop applications on Lukup",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukup/stream-sdk.git"
+  },
+  "keywords": [
+    "content",
+    "streaming",
+    "lukup"
+  ],
+  "author": "Kallol Borah",
+  "license": "BUSL1.1",
+  "bugs": {
+    "url": "https://github.com/lukup/stream-sdk/issues"
+  },
+  "homepage": "https://github.com/lukup/stream-sdk#readme",
+  "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc && npm link",
+    "publish": "tsc && npm publish",
+    "test": "mocha"
+  },
+  "bin": {
+    "greet": "./bin/index.bin.js"
+  },
+  "dependencies": {
+    "ethers": "^5.0.31"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "mocha": "^9.0.1",
+    "typescript": "^4.3.4"
+  }
+}
