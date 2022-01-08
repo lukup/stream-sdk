@@ -187,9 +187,6 @@ export class LukupContract {
         } catch (error) {
             console.error(error);
             res.status = STATUS.ERROR;
-            res.reason = error.reason
-            res.message = error.message
-            res.code = error.code
             return res;
         }
     }

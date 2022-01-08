@@ -1,6 +1,6 @@
 const contractAddress: Object = {
     'ropsten': {
-        'Client': ''
+        'Content': ''
     }
 }
 
