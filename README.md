@@ -19,17 +19,13 @@ let walletWithProvider = wallet.setProvider(
 )
 ```
 # interacting with Smart contracts
-```let clientContract = new ClientContract(wallet);```
+```let content = new ContentContract(wallet);```
 
-This will create an instance of Client contract and you can access all the functions within the clientContract using this object.
+This will create an instance of Content contract and you can access all the functions within the Content Contract using this object.
 
-Now you can call a function in clientContract like:
-```clientContract.setAccess("true")``` // to set the access to True/False.
+Now you can call a function in content object like:
+```content.createContent(............)``` 
 
-Similarly you can create different Contracts instances available:
-```
-ClientContract
-```
 
 # This is how you can integrate with any Dapp.
 1. Install and Import the SDK
