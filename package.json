@@ -1,6 +1,6 @@
 {
   "name": "@lukup/stream-sdk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An SDK to develop applications on Lukup",
   "repository": {
     "type": "git",
