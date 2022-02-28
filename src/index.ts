@@ -3,7 +3,7 @@
 import { LukupWallet } from './wallet';
 import { Provider } from './utils';
 import { utils } from "ethers";
-import ContentContract from './contract/content';
+import ContentContract from './contract/content/content';
 import contractAddress from "./contractAddress";
 
 export {
